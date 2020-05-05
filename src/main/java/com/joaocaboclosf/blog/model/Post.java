@@ -3,7 +3,10 @@ package com.joaocaboclosf.blog.model;
 import java.util.Date;
 import java.util.List;
 
+<<<<<<< HEAD
 import javax.persistence.CascadeType;
+=======
+>>>>>>> fdf2530ac266e2451b9c80cf846498fadba2634b
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -12,7 +15,10 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.Lob;
 import javax.persistence.OneToMany;
+<<<<<<< HEAD
 import javax.persistence.OneToOne;
+=======
+>>>>>>> fdf2530ac266e2451b9c80cf846498fadba2634b
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
@@ -44,6 +50,7 @@ public class Post {
 	@JoinColumn(name="post_id")
 	private List<Comment> comments;
 
+<<<<<<< HEAD
 	@OneToOne
 	@JoinColumn(name="Post_Category_id")     
 	private PostCategory postCategory; 
@@ -56,6 +63,8 @@ public class Post {
 		this.postCategory = postCategory;
 	}
 
+=======
+>>>>>>> fdf2530ac266e2451b9c80cf846498fadba2634b
 	public Integer getId() {
 		return id;
 	}

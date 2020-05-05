@@ -1,6 +1,9 @@
 package com.joaocaboclosf.blog.controller;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
+=======
+>>>>>>> fdf2530ac266e2451b9c80cf846498fadba2634b
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,8 +41,12 @@ public class PostController {
 	//   Como chamar no browse - http://localhost:8085/posts
 	@GetMapping("")
 	public List<Post> listPosts() {
+<<<<<<< HEAD
 //		List<Post> lstPost = new ArrayList<Post>(); 
 //		lstPost = postRepository.findAll();
+=======
+		
+>>>>>>> fdf2530ac266e2451b9c80cf846498fadba2634b
 		return postRepository.findAll();
 	}
 	
